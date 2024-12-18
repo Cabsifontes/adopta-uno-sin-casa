@@ -59,8 +59,23 @@
 
 /* footer */
 
+footer {
+  width: 100%; /* En lugar de 100vw */
+  overflow-x: hidden;
+}
+
+.footer-social a {
+  color: #00bcd4;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #FF9515; 
+  transform: scale(1.2);
+}
+
 .logo-footer img {
-  width: 60%;  
+  width: 55%;  
 }
 
 .color-copy {
