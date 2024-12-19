@@ -57,10 +57,60 @@
   height: 100px;
 }
 
+/* galeria */
+
+.container.gallery-container {
+  min-height: 100vh;
+  padding: 30px 50px;
+}
+
+.gallery-container h1 {
+  color: #00bcd4;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.gallery-container p.page-description {
+  text-align: center;
+  margin: 10px auto;
+  font-size: 18px;
+  color: #999;
+}
+
+.tz-gallery {
+  padding: 40px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+  padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+  width: 100%;
+  border-radius: 0;
+  position: relative;
+}
+
 /* footer */
 
+footer {
+  width: 100%; /* En lugar de 100vw */
+  overflow-x: hidden;
+}
+
+.footer-social a {
+  color: #00bcd4;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #FF9515; 
+  transform: scale(1.2);
+}
+
 .logo-footer img {
-  width: 60%;  
+  width: 55%;  
 }
 
 .color-copy {
